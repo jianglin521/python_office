@@ -120,11 +120,11 @@ def add_row(list_row_data, file_name):
 if __name__ == '__main__':
     # 设置文件夹路径
     # "\"为字符串中的特殊字符，加上r后变为原始字符串，则不会对字符串中的"\t"、"\r" 进行字符串转义
-    file_dir = r'D:\WebstormProjects\untitled3\python\01 报表合并\word'
+    file_dir = './word'
     #模板顶部表头行数,当前行数减1
     top = 2
     # 设置文件名，用于保存数据
-    file_name = '123.xls'
+    file_name = '456.xls'
 
 
 
